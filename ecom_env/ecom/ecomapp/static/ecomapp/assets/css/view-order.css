@@ -1,0 +1,17 @@
+
+.t0 table {
+     border: 0;
+
+     text-align: center;
+}
+.t0 table th{
+     color:#ff0000;
+     font-size: 22px;
+}
+
+.t0 table td {
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-size: 20px;
+     color: green;
+}

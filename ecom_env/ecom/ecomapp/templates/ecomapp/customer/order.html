@@ -1,0 +1,159 @@
+﻿{% extends 'ecomapp/customer/customer_index.html' %}
+{% block content  %}
+<section class="content home">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <h2>Add Personal Details <small class="text-muted">Welcome to 
+                        
+                        </small></h2>
+                    </div>            
+                    <div class="col-lg-7 col-md-7 col-sm-12 text-right">
+                        
+                        <button class="btn btn-white btn-icon btn d-none d-md-inline-block float-right m-l-10" type="button">
+                            <a href= ""><i class="zmdi zmdi-Back">Back</i></a>
+                        </button>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+<div class="container-fluid">                
+                
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="card">
+                {% if s_msg %}
+                <div class="alert alert-success" role="alert">
+                    {{s_msg}}
+                </div>
+                
+                {% endif %}
+                <div class="header">
+                    <h2><strong>Add</strong> Product details <small>Description text here...</small> </h2>
+                    <ul class="header-dropdown">                            
+                        <li class="remove">
+                            <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <form action="{% url 'order' %}" method="post" enctype="multipart/form-data">
+                    {% csrf_token %} 
+                    <div class="body">
+                        <div class="row clearfix">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter Your name " name="id" value="{{pid.id}}" hidden>
+                                    <input type="text" class="form-control" placeholder="Enter Your name " name="name">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    
+                                    <input type="text"  class="form-control" placeholder="Enter mobile number " name="mobile_no"  >
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <br>
+                                    <input type="text" class="form-control" placeholder="Enter Country" name="country">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <br>
+                                    <input type="text" class="form-control" placeholder="Enter state" name="state">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row clearfix">
+                            <div class="col-sm-3">
+                                <div class="form-group">
+                                    <br>
+                                    <input type="text" class="form-control" placeholder="Enter city " name="city">
+                                </div>
+                            </div>
+
+                        </div>
+                            
+                    </div>
+
+                    <!-- ............................................ -->
+                    <label> <h1>Price Details </h1></label>
+                            
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Mobile Name </h2></h3><input type="text" name="productname" value="{{pid.mobile_name}}"> </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> ram </h2></h3><input type="text" name="ram" value="{{pid.ram}}"> </strong></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> Rom </h2></h3> <input type="text" name="rom" value="{{pid.rom}}"> </strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> Price </h2></h3> <input type="text" name="price" value="{{pid.price}}"> </strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Quntity </h2></h3> <input type="text" placeholder="Enter QTY" name="qty"></strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                </div>
+                           
+                            <div class="clearfix">
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-round">Submit</button>
+                                   
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                
+                    </div>
+                </form> 
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+{% endblock  %}
+               

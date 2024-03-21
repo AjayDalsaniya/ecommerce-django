@@ -1,0 +1,942 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "django.db",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db",
+        "description": "django.db",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "django.conf",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "isExtraImport": true,
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "isExtraImport": true,
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "FPDF",
+        "importPath": "fpdf",
+        "description": "fpdf",
+        "isExtraImport": true,
+        "detail": "fpdf",
+        "documentation": {}
+    },
+    {
+        "label": "get_template",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "get_template",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "pisa",
+        "importPath": "xhtml2pdf",
+        "description": "xhtml2pdf",
+        "isExtraImport": true,
+        "detail": "xhtml2pdf",
+        "documentation": {}
+    },
+    {
+        "label": "pisa",
+        "importPath": "xhtml2pdf",
+        "description": "xhtml2pdf",
+        "isExtraImport": true,
+        "detail": "xhtml2pdf",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views",
+        "description": "django.views",
+        "isExtraImport": true,
+        "detail": "django.views",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEMultipart",
+        "importPath": "email.mime.multipart",
+        "description": "email.mime.multipart",
+        "isExtraImport": true,
+        "detail": "email.mime.multipart",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEBase",
+        "importPath": "email.mime.base",
+        "description": "email.mime.base",
+        "isExtraImport": true,
+        "detail": "email.mime.base",
+        "documentation": {}
+    },
+    {
+        "label": "encoders",
+        "importPath": "email",
+        "description": "email",
+        "isExtraImport": true,
+        "detail": "email",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMultiAlternatives",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ecom.asgi",
+        "description": "ecom.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "ecom.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-d)e!i(a+)gh!j-k#l+d4=8ql-i)+9&m42rzl9!yr9g!70g*2v0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-d)e!i(a+)gh!j-k#l+d4=8ql-i)+9&m42rzl9!yr9g!70g*2v0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'ecomapp',",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'ecomapp',\n]\nMIDDLEWARE = [",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'ecom.urls'",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "ROOT_URLCONF = 'ecom.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'ecom.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n#SMTP SETTINGS",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n#SMTP SETTINGS\nEMAIL_BACKEND = \"django.core.mail.backends.smtp.EmailBackend\"\nEMAIL_USE_SSL = True\nEMAIL_HOST = \"smtp.gmail.com\"",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "EMAIL_BACKEND = \"django.core.mail.backends.smtp.EmailBackend\"\nEMAIL_USE_SSL = True\nEMAIL_HOST = \"smtp.gmail.com\"\nEMAIL_PORT = 587\nEMAIL_HOST_USER ='abpatel0421@gmail.com'\nEMAIL_HOST_PASSWORD = str('iavr livu soti qslo')\nDEFAULT_FROM_EMAIL = 'Testing <priyanshuguptacontact@gmail.com>'\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_SSL",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "EMAIL_USE_SSL = True\nEMAIL_HOST = \"smtp.gmail.com\"\nEMAIL_PORT = 587\nEMAIL_HOST_USER ='abpatel0421@gmail.com'\nEMAIL_HOST_PASSWORD = str('iavr livu soti qslo')\nDEFAULT_FROM_EMAIL = 'Testing <priyanshuguptacontact@gmail.com>'\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "EMAIL_HOST = \"smtp.gmail.com\"\nEMAIL_PORT = 587\nEMAIL_HOST_USER ='abpatel0421@gmail.com'\nEMAIL_HOST_PASSWORD = str('iavr livu soti qslo')\nDEFAULT_FROM_EMAIL = 'Testing <priyanshuguptacontact@gmail.com>'\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_HOST_USER ='abpatel0421@gmail.com'\nEMAIL_HOST_PASSWORD = str('iavr livu soti qslo')\nDEFAULT_FROM_EMAIL = 'Testing <priyanshuguptacontact@gmail.com>'\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = str('iavr livu soti qslo')\nDEFAULT_FROM_EMAIL = 'Testing <priyanshuguptacontact@gmail.com>'\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = 'Testing <priyanshuguptacontact@gmail.com>'\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "ecom.settings",
+        "description": "ecom.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ecom.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ecom.urls",
+        "description": "ecom.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('ecomapp.urls')),\n]",
+        "detail": "ecom.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ecom.wsgi",
+        "description": "ecom.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "ecom.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecomapp.migrations.0001_initial",
+        "description": "ecomapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"customer\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "ecomapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecomapp.migrations.0002_addcart",
+        "description": "ecomapp.migrations.0002_addcart",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"ecomapp\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"AddCart\",\n            fields=[\n                (\n                    \"id\",",
+        "detail": "ecomapp.migrations.0002_addcart",
+        "documentation": {}
+    },
+    {
+        "label": "EcomappConfig",
+        "kind": 6,
+        "importPath": "ecomapp.apps",
+        "description": "ecomapp.apps",
+        "peekOfCode": "class EcomappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'ecomapp'",
+        "detail": "ecomapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 6,
+        "importPath": "ecomapp.models",
+        "description": "ecomapp.models",
+        "peekOfCode": "class user(models.Model):\n     email = models.EmailField(unique=True,max_length=30)\n     password = models.CharField(max_length=30)\n     role = models.CharField(max_length=30)\n     def __str__(self):\n        return self.email\nclass customer(models.Model):\n     cust_id  = models.ForeignKey(user,on_delete=models.CASCADE)\n     name = models.CharField(max_length=30)\n     country = models.CharField(max_length=30)",
+        "detail": "ecomapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "customer",
+        "kind": 6,
+        "importPath": "ecomapp.models",
+        "description": "ecomapp.models",
+        "peekOfCode": "class customer(models.Model):\n     cust_id  = models.ForeignKey(user,on_delete=models.CASCADE)\n     name = models.CharField(max_length=30)\n     country = models.CharField(max_length=30)\n     state = models.CharField(max_length=30)\n     city = models.CharField(max_length=30)\n     pic = models.FileField(upload_to=\"media/cutomer/\",null=True)\n     def __str__(self):\n        return self.name\nclass product(models.Model):",
+        "detail": "ecomapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "product",
+        "kind": 6,
+        "importPath": "ecomapp.models",
+        "description": "ecomapp.models",
+        "peekOfCode": "class product(models.Model):\n     mobile_name = models.CharField(max_length=30)\n     ram = models.CharField(max_length=30)\n     rom = models.CharField(max_length=30)\n     info = models.TextField()\n     price = models.CharField(max_length=30)\n     pic = models.FileField(upload_to=\"media/mobile/\")\n     def __str__(self):\n        return self.mobile_name\nclass order(models.Model):",
+        "detail": "ecomapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "order",
+        "kind": 6,
+        "importPath": "ecomapp.models",
+        "description": "ecomapp.models",
+        "peekOfCode": "class order(models.Model):\n     product_id = models.ForeignKey(product,on_delete=models.CASCADE)\n     user_id = models.ForeignKey(user,on_delete=models.CASCADE)\n     cust_id = models.ForeignKey(customer,on_delete=models.CASCADE)\n     name = models.CharField(max_length=30)\n     mobile_no = models.CharField(max_length=30,null=True)\n     country = models.CharField(max_length=30)\n     state  = models.CharField(max_length=30)\n     city = models.CharField(max_length=30)\n     productname = models.CharField(max_length=30)",
+        "detail": "ecomapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "AddCart",
+        "kind": 6,
+        "importPath": "ecomapp.models",
+        "description": "ecomapp.models",
+        "peekOfCode": "class AddCart(models.Model):\n      product_id = models.ForeignKey(product,on_delete=models.CASCADE)\n      user_id = models.ForeignKey(user,on_delete=models.CASCADE)\n      cust_id = models.ForeignKey(customer,on_delete=models.CASCADE)\n      productname = models.CharField(max_length=30)\n      ram = models.CharField(max_length=30)\n      rom  = models.CharField(max_length=30)\n      qty = models.CharField(max_length=30)\n      price = models.CharField(max_length=30)\n      total_price = models.CharField(max_length=30)",
+        "detail": "ecomapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ecomapp.urls",
+        "description": "ecomapp.urls",
+        "peekOfCode": "urlpatterns = [\n     #admin\n        path('admin-panel/',views.admin_index, name='admin_index'),\n        #add product\n        path('add-product/',views.add_product,name=\"add-product\"),\n        path('product-data/',views.product_data,name=\"product-data\"),\n        #all product\n        path('all-product/',views.all_product, name='all-product'),\n        #view product \n        path('view-product/<int:pk>/',views.view_product,name=\"view-product\"),",
+        "detail": "ecomapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "GenerateInvoice",
+        "kind": 6,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "class GenerateInvoice(View):\n     def get(self, request, pk, *args, **kwargs):\n          try:\n               oid = order.objects.get(id=pk)  # you can filter using order_id as well\n          except order.DoesNotExist:\n               return HttpResponse(\"505 Not Found\")\n          data = {\n            \"order_id\": oid.id,\n            \"oid\": oid\n          }",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_index",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def admin_index(request):\n     cid  = customer.objects.all()\n     context = {\n          'cid':cid,\n     }\n     return render(request,'ecomapp/admin/admin-panel.html',context)\ndef add_product(request):\n     return render(request,'ecomapp/admin/add_product.html')\ndef product_data(request):\n     try:",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_product",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def add_product(request):\n     return render(request,'ecomapp/admin/add_product.html')\ndef product_data(request):\n     try:\n          if request.POST:\n               mobile_name = request.POST['mobile_name']\n               ram = request.POST['ram']\n               rom = request.POST['rom']\n               info = request.POST['info']\n               price = request.POST['price']",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "product_data",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def product_data(request):\n     try:\n          if request.POST:\n               mobile_name = request.POST['mobile_name']\n               ram = request.POST['ram']\n               rom = request.POST['rom']\n               info = request.POST['info']\n               price = request.POST['price']\n               pic  = request.FILES['pic']\n               pid = product.objects.create(",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "all_product",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def all_product(request):\n     pall = product.objects.all()\n     context = {\n          \"pall\":pall,\n     }\n     return render(request,'ecomapp/admin/all_product.html',context)\ndef view_product(request,pk):\n     pid = product.objects.get(id = pk)\n     context = {\n          'pid':pid,",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_product",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def view_product(request,pk):\n     pid = product.objects.get(id = pk)\n     context = {\n          'pid':pid,\n     }\n     return render(request,'ecomapp/admin/view_product.html',context)\ndef edit_product(request,pk):\n     pid = product.objects.get(id = pk)\n     context = {\n          'pid':pid,",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_product",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def edit_product(request,pk):\n     pid = product.objects.get(id = pk)\n     context = {\n          'pid':pid,\n     }\n     return render(request,'ecomapp/admin/edit_product.html',context)\ndef update_product(request):\n     if request.POST:\n          id = request.POST['id']\n          mobile_name = request.POST['mobile_name']",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_product",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def update_product(request):\n     if request.POST:\n          id = request.POST['id']\n          mobile_name = request.POST['mobile_name']\n          ram = request.POST['ram']\n          rom = request.POST['rom']\n          info = request.POST['info']\n          price = request.POST['price']\n          #pic = request.FILES['pic']\n          pid = product.objects.get(id = int(id))",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_product",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def delete_product(request,pk):\n     pid = product.objects.get(id = pk)\n     pid.delete()\n     pid = product.objects.all()\n     return redirect('all-product')\ndef all_order(request):\n     oid = order.objects.all()\n     context = {\n          'oid':oid,\n     }",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "all_order",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def all_order(request):\n     oid = order.objects.all()\n     context = {\n          'oid':oid,\n     }\n     return render(request,'ecomapp/admin/all-order.html',context)\ndef view_order1(request,pk):\n     oid = order.objects.get(id = pk)\n     context = {\n               'oid':oid,",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_order1",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def view_order1(request,pk):\n     oid = order.objects.get(id = pk)\n     context = {\n               'oid':oid,\n          }\n     return render(request,'ecomapp/admin/view_order.html',context)\ndef status(request):\n     try:\n          if request.POST:\n               id = request.POST['id']",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def status(request):\n     try:\n          if request.POST:\n               id = request.POST['id']\n               st1 = request.POST['status']\n               status = 0\n               if st1 == \"Pending\":\n                    status = 0\n               else:\n                    status = 1",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "customer_index",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def customer_index(request):\n     if \"email\" in request.session:\n        uid = user.objects.get(email = request.session[\"email\"])\n        cid  = customer .objects.get(cust_id = uid)\n        if uid.role == \"customer\":\n          pid = product.objects.all()\n          context = {\n               'cid':cid,\n               'pid':pid,\n          }",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_product_cust",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def view_product_cust(request,pk):\n     if \"email\" in request.session:\n          uid = user.objects.get(email = request.session['email'])\n          cid = customer.objects.get(cust_id = uid)\n          pid = product.objects.get(id = pk)\n          context = {\n               'pid':pid,\n               'uid':uid,\n               'cid':cid,\n          }",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "buynow",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def buynow(request,pk):\n    if \"email\" in request.session:\n          uid = user.objects.get(email = request.session['email'])\n          cid = customer.objects.get(cust_id = uid)\n          pid  = product.objects.get(id = pk)\n          context = {\n          'pid':pid,\n          'uid':uid,\n          'cid':cid,\n          }",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "addToCart",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def addToCart(request):\n     return render(request,\"ecomapp/customer/addtocart.html\")\nfrom django.core.mail import EmailMultiAlternatives\ndef order_product(request):\n     if \"email\" in request.session:\n          uid = user.objects.get(email = request.session['email'])\n          cid = customer.objects.get(cust_id = uid)\n          try:\n               if request.POST:\n                    pid  = request.POST['id']",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "order_product",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def order_product(request):\n     if \"email\" in request.session:\n          uid = user.objects.get(email = request.session['email'])\n          cid = customer.objects.get(cust_id = uid)\n          try:\n               if request.POST:\n                    pid  = request.POST['id']\n                    name  = request.POST['name']\n                    mobile_no  = request.POST['mobile_no']\n                    country  = request.POST['country']",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_order",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def view_order(request):\n     if \"email\" in request.session:\n          uid = user.objects.get(email = request.session['email'])\n          cid = customer.objects.get(cust_id = uid)\n          oid = order.objects.filter(cust_id = cid)\n          for i in oid:\n               print(\"product name---------------------------- : \",i.productname)\n          context = {\n               'uid':uid,\n               'cid':cid,",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def logout(request):\n     if \"email\" in request.session:\n          del request.session['email']\n          return render(request,'ecomapp/auth/login.html')\n     else:\n          return render(request,'ecomapp/auth/login.html')\ndef login(request):\n     return render(request,'ecomapp/auth/login.html')\ndef login_data(request):\n     if \"email\" in request.session:",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def login(request):\n     return render(request,'ecomapp/auth/login.html')\ndef login_data(request):\n     if \"email\" in request.session:\n        uid = user.objects.get(email = request.session['email'])\n        cid = customer.objects.get(cust_id = uid)\n        context = {\n             'uid':uid,\n             'cid':cid\n               }",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_data",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def login_data(request):\n     if \"email\" in request.session:\n        uid = user.objects.get(email = request.session['email'])\n        cid = customer.objects.get(cust_id = uid)\n        context = {\n             'uid':uid,\n             'cid':cid\n               }\n        return render(request,'ecomapp/customer/customer_index.html',context)\n     else:",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def register(request):\n     return render(request,'ecomapp/auth/register.html')\ndef register_data(request):\n     try:\n          if request.POST:\n               email = request.POST['email']\n               password = request.POST['password']\n               name = request.POST['name']\n               country = request.POST['country']\n               state = request.POST['state']",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "register_data",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def register_data(request):\n     try:\n          if request.POST:\n               email = request.POST['email']\n               password = request.POST['password']\n               name = request.POST['name']\n               country = request.POST['country']\n               state = request.POST['state']\n               city = request.POST['city']\n               pic = request.FILES['pic']",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_resources",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def fetch_resources(uri, rel):\n    path = os.path.join(uri.replace(settings.STATIC_URL, \"\"))\n    return path\ndef render_to_pdf(template_src, context_dict={}):\n    template = get_template(template_src)\n    html = template.render(context_dict)\n    result = BytesIO()\n    pdf = pisa.pisaDocument(BytesIO(html.encode(\"ISO-8859-1\")), result)\n    if not pdf.err:\n        return result.getvalue()",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_pdf",
+        "kind": 2,
+        "importPath": "ecomapp.views",
+        "description": "ecomapp.views",
+        "peekOfCode": "def render_to_pdf(template_src, context_dict={}):\n    template = get_template(template_src)\n    html = template.render(context_dict)\n    result = BytesIO()\n    pdf = pisa.pisaDocument(BytesIO(html.encode(\"ISO-8859-1\")), result)\n    if not pdf.err:\n        return result.getvalue()\n    return None\nclass GenerateInvoice(View):\n     def get(self, request, pk, *args, **kwargs):",
+        "detail": "ecomapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecom.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

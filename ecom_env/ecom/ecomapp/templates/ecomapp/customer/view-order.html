@@ -1,0 +1,109 @@
+﻿{% extends 'ecomapp/customer/customer_index.html' %}
+{% block content  %}
+<section class="content home">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <h2>Orders <small class="text-muted">Welcome to Shree Umiya Mobile
+                        
+                        </small></h2>
+                    </div>            
+                    <div class="col-lg-7 col-md-7 col-sm-12 text-right">
+                        
+                        <button class="btn btn-white btn-icon btn d-none d-md-inline-block float-right m-l-10" type="button">
+                            <a href= ""><i class="zmdi zmdi-Back">Back</i></a>
+                        </button>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+<div class="container-fluid">                
+                
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="card">
+                {% if s_msg %}
+                <div class="alert alert-success" role="alert">
+                    {{s_msg}}
+                </div>
+                
+                {% endif %}
+                <div class="header">
+                    <h2><strong>Your Order</strong>  <small>Description text here...</small> </h2>
+                    <ul class="header-dropdown">                            
+                        <li class="remove">
+                            <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                   
+                          
+                     
+                <!-- ............ -->
+
+                
+                    <div  class="t0">
+                        <table border="1" cellspacing="7px" width="85%" align="center">
+                            <tr>
+                                
+                                <th width="10%">Image </th>
+                                <th width="10%"> Product Name </th>
+                                <th width="10%"> Date </th>
+                                <th width="10%"> Price </th>
+                                <th width="10%"> Quantity </th>
+                                <th width="10%"> Total Price </th>
+                                <th width="10%"> Status </th>
+                                <th width="10%"> Receipt </th>
+                                        
+                            </tr>
+                            <div class="t1">
+                                {% for o in oid%}
+                                <tr> 
+                                  
+                                    <td><img src = '{{o.product_id.pic.url}}' width='50px' height='50px'></td>
+                                    <td>{{ o.productname}}</td>
+                                    <td>{{ o.date}}</td>
+                                    <td>₹ {{o.price}}</td>
+                                    <td>{{o.qty}}</td>
+                                    <td>₹ {{o.total_price}}</td>
+
+                                    {% if o.status %}
+                                    <td><small class="badge badge-success">Completed</td>
+
+                                    {% else %}
+                                    <td><small class="badge badge-warning">Pending</td>           
+                                    {% endif %}
+                                    <td> <a href="{%url 'generateinvoice' pk=o.id %}" class="btn btn-primary btn-round">Receipt Downlaod</a></td>
+                                </tr>
+                                {% endfor%}
+                                                       "
+                                        
+                            </div>
+                                        
+                            
+                            
+                    </table>
+                </div>
+               </div>
+
+
+
+
+
+
+
+
+
+
+                <!-- .......................................... -->
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+{% endblock  %}
+               

@@ -1,0 +1,226 @@
+﻿{% extends 'ecomapp/admin/admin-panel.html' %}
+{% block content  %}
+<section class="content home">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <h2>View Profile<small class="text-muted">Welcome to 
+                        
+                        </small></h2>
+                    </div>            
+                    <div class="col-lg-7 col-md-7 col-sm-12 text-right">
+                        <button class="btn btn-white btn-icon btn d-none d-md-inline-block float-right m-l-10" type="button">
+                            <a href= ><i class="zmdi zmdi-Back">Back</i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">                
+                
+                
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="card">
+            {% if msg %}
+            <div class="alert alert-success" role="alert">
+                {{msg}}
+            </div>
+            {% endif %}
+            
+            <div class="header">
+                <h2><strong>View</strong> Profile Details <small>Description here...</small> </h2>
+                <ul class="header-dropdown">                            
+                    <li class="remove">
+                        <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <form action="{% url 'status' %}" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="body">
+                    <div class="row clearfix">
+                        <div class="user-info">
+                            <div class="col-sm-12">
+                                <div class="image"><a href="..\doctor\profile.html"><img src="{{oid.product_id.pic.url}}" alt="User" height="150px"></a>
+                                </div>
+                                <label class="header"><h2><strong> Order Details </h2></label>
+                                </div>
+                            </div>
+                        </div>
+                    <!--<div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Mobile Name </h2></h3>{{oid.productname}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> ram </h2></h3>{{oid.ram}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> Rom </h2></h3> {{oid.rom}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> Price </h2></h3> {{oid.price}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                -->
+                <div  class="t0">
+                    <table border="1" cellspacing="7px" width="85%" align="center">
+                        <tr>
+                            
+                            <th width="10%">Image </th>
+                            <th width="10%"> Product Name </th>
+                            <th width="10%"> Date </th>
+                            <th width="10%"> Price </th>
+                            <th width="10%"> Quantity </th>
+                            <th width="10%"> Total Price </th>
+                            <th width="10%"> Status </th>
+                                    
+                        </tr>
+                        <div class="t1">
+                        
+                            <tr> 
+                              
+                                <td><img src = '{{oid.product_id.pic.url}}' width='50px' height='50px'></td>
+                                <td>{{ oid.productname}}</td>
+                                <td>{{ oid.date}}</td>
+                                <td>₹ {{oid.price}}</td>
+                                <td>{{oid.qty}}</td>
+                                <td>₹ {{oid.total_price}}</td>
+
+                                {% if oid.status %}
+                                <td><small class="badge badge-success">Completed</td>
+
+                                {% else %}
+                                <td><small class="badge badge-warning">Pending</td>           
+                                {% endif %}
+                            </tr>
+                            
+                                                   "
+                                    
+                        </div>
+                                    
+                        
+                        
+                </table> 
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> address </h2></h3>{{pid.info}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+
+                    <div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong>  Name </h2></h3>{{oid.name}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> Mobile No </h2></h3>{{oid.mobile_no}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> Country </h2></h3> {{oid.country}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">   
+                                <div class="header">
+                                    <h2><strong> State </h2></h3> {{oid.state}}</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="row clearfix">
+                        
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <h2><strong> City </h2></h3>{{oid.city}} </strong></h3>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <input type="text" name="id" class="form-control" value="{{oid.id}}" hidden>
+                                    <h2><strong> Status </h2></h3><input list="statuslist" name="status"class="form-control" placeholder="Select Status">
+                                        <datalist id="statuslist" >
+                                            <option value="Pending">
+                                            <option value="Completed">
+                                           
+                                        </datalist></strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <div class="header">
+                                    <button type="submit" class="btn btn-primary btn-round">Submit</button>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                   
+                   
+
+            </form>    
+                    
+            
+            </div>
+            
+        
+            
+          
+            
+        </div>
+    </div>
+</div>
+
+            </div>
+</section>
+
+{% endblock  %}
+               
